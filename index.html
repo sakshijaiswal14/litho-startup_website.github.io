@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LITHO</title>
+    <link rel="icon" href="Images/icon.jpg">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- CSS STYLE SHEETS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSRAP SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://getbootstrap.com/docs/5.0/components/carousel/#with-controls"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
+
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid" >
+            <a class="navbar-brand" href="#">LITHO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Services</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner container-fluid" style="padding-right: 0px;padding-left: 0px;">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <!-- Background image -->
+            <div class="bg-image text-center text-white" style="
+             background-image: url('Images/image4.jpg');height: 100vh;background-size: cover;">
+             <h1 class="testimonial-text">Start your online business today</h1>
+             <h2>The best way to promote your business</h2>
+             <br> <br> <br> <br> 
+             <a href="#" class="myButton">GET STARTED</a>
+            </div>
+            <!-- Background image -->
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <!-- Background image -->
+            <div
+              class="bg-image text-center text-white" style="background-image: url('Images/image1.jpg');height: 100vh;background-size: cover;">
+              <h1 class="testimonial-text">Combine thinking and technology</h1>
+              <h2>The best way to promote your business</h2>
+              <br> <br> <br> <br> 
+              <a href="#" class="myButton">GET STARTED</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div
+              class="bg-image text-center text-white" style="background-image: url('Images/image3.jpeg');height: 100vh;background-size: cover;" >
+              <h1 class="testimonial-text">Delivering digital and creative products</h1>
+              <h2>The best way to promote your business</h2>
+              <br> <br> <br> <br>
+              <a href="#" class="myButton">GET STARTED</a>
+            </div>
+            
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ANOTHER SECTION -->
+
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4 col-12">
+          <i class="fas fa-flag-checkered fa-4x"></i>
+          <h3>175+</h3>
+          <p>WORLDWIDE OFFICES</p>
+        </div>
+        <div class="feature-box col-lg-4 col-12">
+          <i class="fas fa-user-tie fa-4x"></i>
+          <h3>200+</h3>
+          <p>
+            HIGH SKILLED PEOPLE</p>
+        </div>
+        <div class="feature-box col-lg-4 col-12">
+          <i class="fas fa-award fa-4x"></i>
+          <h3>20</h3>
+          <p style="padding-bottom: 20px;">YEARS OF EXPERIENCE</p>
+        </div>
+      </div>
+      </div>
+    </section>
+     
+
+
+    <!-- CARDS -->
+    <section id="cards">
+      <div class="bg-image" style="background-image: url('Images/image5.jpg');background-size: cover;height: 100vh">
+        <div class="container h-100">
+          <div class="row align-middle">
+            <div class="col-md-6 col-lg-4 column">
+              <div class="card gr-1">
+                <div class="txt">
+                  <h1>INNOVATE BUSINESS</h1>
+                  <p>Easy to customize</p>
+                </div>
+               
+                <div class="ico-card">
+                <i class="fa fa-rebel"></i>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 column">
+              <div class="card gr-2">
+                <div class="txt">
+                  <h1>EXPERT MARKETING</h1>
+                  <p>High quality services</p>
+                </div>
+              <div class="ico-card">
+                <i class="fa fa-codepen"></i>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-12 column">
+              <div class="card gr-3">
+                <div class="txt">
+                  <h1>ENGAGE AUDIENCE</h1>
+                  <p>Build perfect websites</p>
+                </div>
+              <div class="ico-card">
+                <i class="fa fa-empire"></i>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section id="Contact">
+      <div class="container-fluid" style="padding-top: 400px;">
+        <h5 style="text-align: center; color: rgb(107, 199, 107);">
+          Love to work together!
+        </h5>
+        <br>
+        <h4 class="contact-text" style="text-align: center;">
+          Are you ready to work with us?<br> Let's grow your business.
+        </h4>
+        <br>
+      </div>
+      <form class="row g-2" style="padding:0% 25% 8% 37%;">
+        <div class="col-auto">
+          <label for="inputemail" class="visually-hidden">Enter your email here</label>
+          <input type="email" class="form-control" id="inputPassword2" placeholder="Enter your email here">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Subscribe now</button>
+        </div>
+      </form>
+    </section>
+    <div class="bottom-container">
+      <h5 class="copyright">Â© 2021 Sakshi Jaiswal.</h5>
+    </div>
+  
+  </body>
+</html>
+
+
+
